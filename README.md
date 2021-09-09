@@ -1,5 +1,5 @@
 # minimax-with-alpha-beta-pruning
-The tic-tac-toe agent that plays against the computer at https://playtictactoe.org/
+The tic-tac-toe agent plays against the computer at https://playtictactoe.org/
 
 Tic-tac-toe is a considered a solved game due to its shallow depth compared to other board games, e.g. chess. This means that all end-game states can be computed from any given board state.
 
