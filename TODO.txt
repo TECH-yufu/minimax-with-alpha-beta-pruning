@@ -1,0 +1,14 @@
+COMPLETED:
+- Find coordinates for each position
+- Agent
+- Get pixel values for each position 
+- Use pixel values to determine board state
+- Define action space
+- Random policy
+- Check if terminal state
+- Update score
+- Alpha-beta search policy
+- Check if terminal state from board
+- Determine winner from board
+
+TODO:
