@@ -2,7 +2,6 @@
 """
 Created on Thu Jul 15 11:28:47 2021
 
-@author: Yu
 """
 
 import pyautogui
