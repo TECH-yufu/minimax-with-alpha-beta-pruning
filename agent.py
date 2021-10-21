@@ -81,8 +81,8 @@ def trimmed_image(threshold_image):
     img, h = trim_image1(img, 'bottom')
  
     # make into 1080 x 1920 image again
-    img = np.vstack((np.zeros((a+c+e,1920)), img, np.zeros((b+d+f,1920)))).astype("uint8")
-
+    img = np.vstack((np.zeros((a+c+e,1920)), img, np.zeros((b+d+f+g+h,1920)))).astype("uint8")
+    
     return img
 
 def getScreenshot():
