@@ -8,7 +8,7 @@ The agent plays against the computer at https://playtictactoe.org/. OpenCV is us
 1. Clone repository
 2. `cd` to the cloned folder
 3. Go to https://playtictactoe.org/
-4. Open and run `main.py`. Press 'q' to load the initial board position, press 'w' to make an action.
+4. Open and run `main.py`. Press 'w' to make an action.
 
 ![undefeated](https://media.discordapp.net/attachments/344157424615161856/868945568662183986/unknown.png?width=569&height=612)
 
