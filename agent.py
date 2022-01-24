@@ -214,9 +214,9 @@ def agent(policy):
     score = {"PLAYER": 0, "TIE": 0, "COMPUTER": 0}
     
     while True:
-        # press 'q' to start and get initial board state
-        if keyboard.is_pressed('q'):
-            time.sleep(2)
+        # press 'w' to start and get initial board state
+        if keyboard.is_pressed('w'):
+            time.sleep(0.5)
             board, coordinates = boardState()
             print(board.reshape(3,3))
         
@@ -250,11 +250,12 @@ Computer: {}
                     
                     
 
-                    time.sleep(2)
+                    time.sleep(0.3)
                     board, coordinates = boardState()
                     print(board.reshape(3,3))
     
                     if getWinner(board) is not None:
+                        time.sleep(1)
                         score = updateScore(board, score)
                         print(
 """
